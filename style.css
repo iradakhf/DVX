@@ -9,35 +9,35 @@ a{
 #secondHeader{
     display: none;
 }
-#firstHeader .container{
+#firstHeader .containers{
     padding: 1.5rem 7rem;
 }
-#firstHeader .container .general{
+#firstHeader .containers .general{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#firstHeader .container .aFirst{
+#firstHeader .containers .aFirst{
     width: 22%;
 }
-#firstHeader .container .aSecond{
+#firstHeader .containers .aSecond{
     width: 77%;
     display: flex;
     justify-content: space-between;
 }
-#firstHeader .container .aSecond .sml1{
+#firstHeader .containers .aSecond .sml1{
     width: 10%;
 }
-#firstHeader .container .aSecond .sml2{
+#firstHeader .containers .aSecond .sml2{
     width: 5%;
 }
-#firstHeader .container .aFirst a{
+#firstHeader .containers .aFirst a{
     font-size: 12.23px;
     color: #373737;
     font-weight: bold;
     line-height: 18.345px;
 }
-#firstHeader .container .aSecond a{
+#firstHeader .containers .aSecond a{
     font-size: 16px;
     color: #373737;
     line-height: 24px;
@@ -45,34 +45,34 @@ a{
     font-weight: 400;
     
 }
-#secondHeader .container{
+#secondHeader .containers{
     padding: 0.5rem 2rem;
     display: flex;
     justify-content: space-between;
 
 }
-#secondHeader .container .general{
+#secondHeader .containers .general{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-#secondHeader .container .aFirst{
+#secondHeader .containers .aFirst{
     width: 64%;
 }
-#secondHeader .container .aSecond{
+#secondHeader .containers .aSecond{
     width: 25%;
    justify-content: space-between;
     display: flex;
 
 }
 
-#secondHeader .container .aFirst a{
+#secondHeader .containers .aFirst a{
     font-size: 12.23px;
     color: #373737;
     font-weight: bold;
     line-height: 18.345px;
 }
-#secondHeader .container .aSecond a{
+#secondHeader .containers .aSecond a{
     font-size: 16px;
     color: #373737;
     line-height: 24px;
@@ -84,30 +84,30 @@ a{
     background-color: rgb(251, 251, 251);
 }
 
-#laptop #first .general .container{
+#laptop #first .general .containers{
     padding: 1.5rem 7rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-#laptop #first .general .container .left{
+#laptop #first .general .containers .left{
     width: 65%;
 }
 
-#laptop #first .general .container .left img{
+#laptop #first .general .containers .left img{
     width: 100%;
     border-radius: 10px;
 
 }
 
-#laptop #first .general .container .right{
+#laptop #first .general .containers .right{
     width: 32%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
-#laptop #first .general .container .right button{
+#laptop #first .general .containers .right button{
    width: 100%;
    padding: 3rem 0rem;
    margin-bottom: 1rem;
@@ -117,20 +117,20 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 }
-#laptop #first .general .container .right .btn1{
+#laptop #first .general .containers .right .btn1{
      background-color: #69ACF1;
 }
-#laptop #first .general .container .right .btn1 a{
+#laptop #first .general .containers .right .btn1 a{
    color: white;
    
 }
-#laptop #first .general .container .right .btn2{
+#laptop #first .general .containers .right .btn2{
     background-color: #0EC4A3;
 }
-#laptop #first .general .container .right .btn2 a{
+#laptop #first .general .containers .right .btn2 a{
   color: white;
 }
-#laptop #first .general .container .right .btn3{
+#laptop #first .general .containers .right .btn3{
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -141,25 +141,25 @@ font-weight: 400;
 
 
 }
-#laptop #first .general .container .right .btn3 .leftI{
+#laptop #first .general .containers .right .btn3 .leftI{
     width: 18%;
 }
-#laptop #first .general .container .right .btn3 .leftI img{
+#laptop #first .general .containers .right .btn3 .leftI img{
     width: 100%;
     clip-path: circle(45% at 50% 50%);
 }
-#laptop #first .general .container .right .btn3 .rightT{
+#laptop #first .general .containers .right .btn3 .rightT{
     width: 78%;
     padding-left: 1rem;
 }
 
-#laptop #first .general .container .right .btn3 .rightT a{
+#laptop #first .general .containers .right .btn3 .rightT a{
     color: rgb(48, 48, 48);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 }
-#laptop #first .general .container .right .btn3 .rightT span{
+#laptop #first .general .containers .right .btn3 .rightT span{
     color: rgb(48, 48, 48);
     font-size: 20px;
     font-weight: bold;
@@ -172,18 +172,18 @@ font-weight: 400;
     background-color: rgb(251, 251, 251);
     
 }
-#phone #first .general .container img{
+#phone #first .general .containers img{
     width: 100%;
     border-radius: 10px;
     margin-bottom: 2rem;
 }
-#phone #first .general .container{
+#phone #first .general .containers{
     padding: 1.5rem 2rem;
     display: flex;
     flex-wrap: wrap;
 }
 
-#phone #first .general .container button{
+#phone #first .general .containers button{
    width: 100%;
    padding: 3rem 0rem;
    margin-bottom: 1rem;
@@ -193,20 +193,20 @@ text-align: center;
 font-size: 18px;
 font-weight: 400;
 }
-#phone #first .general .container .btn1{
+#phone #first .general .containers .btn1{
      background-color: #69ACF1;
 }
-#phone #first .general .container .btn1 a{
+#phone #first .general .containers .btn1 a{
    color: white;
    
 }
-#phone #first .general .container .btn2{
+#phone #first .general .containers .btn2{
     background-color: #0EC4A3;
 }
-#phone #first .general .container .btn2 a{
+#phone #first .general .containers .btn2 a{
   color: white;
 }
-#phone #first .general .container .btn3{
+#phone #first .general .containers .btn3{
     display: flex;
     background-color: white;
     border: 2px solid #f1f1f1;
@@ -216,25 +216,25 @@ font-weight: 400;
     padding: 1rem 2rem;
 
 }
-#phone #first .general .container .btn3 .leftI{
+#phone #first .general .containers .btn3 .leftI{
     width: 20%;
 }
-#phone #first .general .container .btn3 .leftI img{
+#phone #first .general .containers .btn3 .leftI img{
     width: 100%;
     clip-path: circle(45% at 50% 50%);
 }
-#phone #first .general .container .btn3 .rightT{
+#phone #first .general .containers .btn3 .rightT{
     width: 80%;
     padding-left: 1rem;
 }
-#phone #first .general .container .btn3 .rightT a{
+#phone #first .general .containers .btn3 .rightT a{
     color: rgb(48, 48, 48);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
 
 }
-#phone #first .general .container .btn3 .rightT span{
+#phone #first .general .containers .btn3 .rightT span{
     color: rgb(48, 48, 48);
     font-size: 20px;
     font-weight: bold;
@@ -256,7 +256,7 @@ font-weight: 400;
     display: block;
    }
 }
-#laptop #second .container{
+#laptop #second .containers{
     display: flex;
     padding: 1.5rem 7rem;
   justify-content: space-between;
@@ -341,4 +341,20 @@ font-weight: 400;
     box-shadow: 10px 41px 182px 33px rgba(214,210,210,0.49);
 
  }
- 
+ #third .containers{
+    padding: 1.5rem 7rem;
+
+ }
+ #third .top{
+display: flex;
+ justify-content: space-between;
+ }
+ #third .top p{
+     font-size: 20px;
+     font-weight: bold;
+     }
+     #third .bottom{
+       display: flex;
+ justify-content: space-betweens;
+        }
+        
